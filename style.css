@@ -1,12 +1,9 @@
-#form-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#user-dialog{
+#user-dialog, #action_alert{
     background-color: whitesmoke;
     width: 400px;
     padding :20px;
-    border-radius: 7px;
     box-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+}
+#user-dialog button{
+    color:pink;
 }
