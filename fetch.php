@@ -8,7 +8,7 @@
 
     $execution->execute();
 
-    $result = $execution->fetchAll();
+    $result = $execution->fetchAll(); 
 
     $total_row =  $execution->rowCount();
 
